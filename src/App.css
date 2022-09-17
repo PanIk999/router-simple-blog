@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+nav{
+  position: fixed;
+  width: 100%;
+  display: flex;
+  /* background-color:blueviolet; */
+  flex-direction: row;
+  justify-content: space-between;
+}
+ul{
+  display: flex;
+  justify-content: space-between;
+}
+ul li{
+  list-style-type: none;
+  text-decoration: none;
+}
+.image{
+  width: 100%;
+}
+h2:last-of-type{
+  margin-bottom: 1.8rem;
+}
+.welcome{
+  padding: 3.6rem;
+}
+.soloBlog{
+  margin-top: 3.6rem;
+}
